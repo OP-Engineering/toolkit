@@ -1,0 +1,34 @@
+{
+  "name": "osp-toolkit",
+  "version": "0.0.1",
+  "description": "Toolkit with all the code I add to the projects over and over again",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "yarn tsc && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ospfranco/osp-toolkit.git"
+  },
+  "keywords": [
+    "toolkit",
+    "js",
+    "ts",
+    "react-native"
+  ],
+  "author": "Oscar Franco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ospfranco/osp-toolkit/issues"
+  },
+  "homepage": "https://github.com/ospfranco/osp-toolkit",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.71.6"
+  }
+}

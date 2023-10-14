@@ -2,6 +2,10 @@
 
 In every project I work I end up needing the same bunch of functions. This is just a repo which contains them so I can easily install them and import them.
 
+```bash
+yarn add osp-toolkit
+```
+
 ## Constants
 
 Some shorthand costants for React Native.

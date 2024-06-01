@@ -1,5 +1,5 @@
 {
-  "name": "osp-toolkit",
+  "name": "@op-engineering/toolkit",
   "version": "0.0.1",
   "description": "Toolkit with all the code I add to the projects over and over again",
   "main": "dist/index.js",

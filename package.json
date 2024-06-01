@@ -1,7 +1,8 @@
 {
   "name": "@op-engineering/toolkit",
-  "version": "0.0.1",
-  "description": "Toolkit with all the code I add to the projects over and over again",
+  "private": false,
+  "version": "0.0.2",
+  "description": "Toolkit useful functions",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -13,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ospfranco/osp-toolkit.git"
+    "url": "git+https://github.com/op-engineering/toolkit.git"
   },
   "keywords": [
     "toolkit",
@@ -24,11 +25,12 @@
   "author": "Oscar Franco",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ospfranco/osp-toolkit/issues"
+    "url": "https://github.com/op-engineering/toolkit/issues"
   },
-  "homepage": "https://github.com/ospfranco/osp-toolkit",
+  "homepage": "https://github.com/op-engineering/toolkit",
   "peerDependencies": {
-    "react": "^18.2.0",
-    "react-native": "^0.71.6"
-  }
+    "react": "*",
+    "react-native": "*"
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
